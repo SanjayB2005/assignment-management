@@ -1,0 +1,76 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled / build output
+/target/
+/build/
+/out/
+/dist/
+
+# Gradle
+.gradle/
+/gradle-app.setting
+gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven (do NOT ignore mvnw, mvnw.cmd or .mvn if you commit the wrapper)
+/.mvn/
+/target/
+
+# IDEs
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and runtime files
+logs/
+*.pid
+*.seed
+
+# Environment / secrets
+.env
+.env.*
+application-*.yml
+application-*.properties
+
+# Database
+*.sql
+*.db
+
+# Uploaded/user files
+uploads/
+files/
+
+# Temporary / swap
+*~
+*.swp
+*.swo
